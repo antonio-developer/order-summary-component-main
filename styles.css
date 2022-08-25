@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+:root {
+  --normal: 500;
+  --bold: 700;
+  --black: 900;
+
+  --primary-pale-blue: hsl(225, 100%, 94%);
+  --primary-bright-blue: hsl(245, 75%, 52%);
+  --neutral-pale-blue: hsl(225, 100%, 98%);
+  --neutral-desatured-blue: hsl(224, 23%, 55%);
+  --neutral-dark-blue: hsl(223, 47%, 23%);
+}
+
+body {
+  background-color: var(--primary-pale-blue);
+  background-image: url('./images/pattern-background-mobile.svg');
+  background-repeat: no-repeat;
+  font-size: 16px;
+  text-align: center;
+}
+
+main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  height: 560px;
+  border-radius: 20px;
+  overflow: hidden;
+  background-color: white;
+  box-shadow: 0 10px 37px 0 var(--neutral-desatured-blue);
+}
+
+img {
+  max-width: 100%;
+}
+
+.card__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-grow: 2;
+  padding: 25px;
+}
+
+.card__title {
+  font-weight: 900;
+  font-size: 22px;
+  color: var(--neutral-dark-blue);
+}
+
+.card__text {
+  color: var(--neutral-desatured-blue);
+  font-size: 15px;
+  line-height: 1.5;
+  padding: 0 8px;
+}
+
+.card__plan {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--neutral-pale-blue);
+  padding: 16px;
+  border-radius: 10px;
+  text-align: left;
+}
+
+.card__plan__text {
+  margin-left: -30px;
+}
+
+.card__plan__title {
+  font-weight: var(--black);
+  margin-bottom: 4px;
+  font-size: 14px;
+  color: var(--neutral-dark-blue);
+}
+
+.card__plan__price {
+  color: var(--neutral-desatured-blue);
+  font-size: 14px;
+}
+
+.card__plan__link {
+  font-size: 13px;
+  color: var(--primary-bright-blue);
+  font-weight: var(--bold);
+}
+
+.card__button {
+  width: 100%;
+  border: none;
+  padding: 15px;
+  font-size: 15px;
+  font-weight: var(--black);
+}
+
+.primary {
+  border-radius: 10px;
+  background-color: var(--primary-bright-blue);
+  box-shadow: 0 25px 15px 0 var(--primary-pale-blue);
+  color: white;
+}
+
+.secondary {
+  background-color: transparent;
+  color: var(--neutral-desatured-blue);
+  margin-top: 10px;
+}
