@@ -26,9 +26,11 @@ Users should be able to:
 
 - See hover states for interactive elements
 
-### Screenshot
+### Screenshots
+![Screenshot 2022-08-27 at 18-48-22 Frontend Mentor Order summary card](https://user-images.githubusercontent.com/53579741/187049359-a61f4c9b-00a3-4d3d-8fc4-14e9c60da6a0.png)
 
-![](./screenshot.jpg)
+
+
 
 Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
 
@@ -97,7 +99,7 @@ Use this section to outline areas that you want to continue focusing on in futur
 ## Author
 
 - Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@antonio-developer](https://www.frontendmentor.io/profile/antonio-developer)
 - Twitter - [@yourusername](https://www.twitter.com/yourusername)
 
 **Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
