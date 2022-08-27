@@ -55,13 +55,14 @@ img {
   flex-direction: column;
   justify-content: space-between;
   flex-grow: 2;
-  padding: 25px;
+  padding: 30px 25px;
 }
 
 .card__title {
   font-weight: 900;
   font-size: 22px;
   color: var(--neutral-dark-blue);
+  line-height: 1;
 }
 
 .card__text {
@@ -114,7 +115,6 @@ img {
 }
 
 .card__button {
-  display: block;
   padding: 15px;
   font-size: 15px;
   font-weight: var(--black);
@@ -122,10 +122,12 @@ img {
 }
 
 .primary {
+  display: block;
   border-radius: 10px;
   background-color: var(--primary-bright-blue);
   box-shadow: 0 25px 15px 0 var(--primary-pale-blue);
   color: white;
+  margin-bottom: 25px;
 }
 
 .primary:hover {
@@ -135,7 +137,6 @@ img {
 .secondary {
   background-color: transparent;
   color: var(--neutral-desatured-blue);
-  margin-top: 10px;
 }
 
 .secondary:hover {
