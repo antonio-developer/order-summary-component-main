@@ -27,9 +27,8 @@ Users should be able to:
 
 - See hover states for interactive elements
 
-### Screenshots
+### Screenshot
 ![Screenshot 2022-08-27 at 18-48-22 Frontend Mentor Order summary card](https://user-images.githubusercontent.com/53579741/187049359-a61f4c9b-00a3-4d3d-8fc4-14e9c60da6a0.png)
-
 
 
 ### Links
@@ -63,7 +62,7 @@ I need to learn more about scss and semantic html.
 
 ### Useful resources
 
-- [(https://www.example.com)](https://www.w3schools.com/) - This helped me for remember concepts.
+- [https://www.w3schools.com/](https://www.w3schools.com/) - This helped me for remember some concepts.
 
 
 ## Author
