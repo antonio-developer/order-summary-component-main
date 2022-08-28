@@ -16,9 +16,10 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
+
+
 
 ### The challenge
 
@@ -69,6 +70,4 @@ I need to learn more about scss and semantic html.
 
 - Website - [Antonio Loureiro](https://www.your-site.com)
 - Frontend Mentor - [@antonio-developer](https://www.frontendmentor.io/profile/antonio-developer)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
